@@ -1,4 +1,3 @@
-
 #!/bin/bash
 #SBATCH -A IscrC_RLSPACE
 #SBATCH -p m100_usr_prod
@@ -24,7 +23,7 @@
 module load profile/deeplrn
 #module load autoload cineca-ai/2.1.0
 module load autoload ray/2.0.0--gnu--10.3.0 
-source /m100/home/userexternal/azavoli0/RAYworks2/.venv/bin/activate
+source /m100/home/userexternal/azavoli0/RAYWorks2/rayvenv/bin/activate
 
 # echo "srun  -n2 su 2 nodo"
 # srun  -n 2 python a2c-cart.py
